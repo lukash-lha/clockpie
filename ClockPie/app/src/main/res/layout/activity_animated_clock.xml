@@ -9,8 +9,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
         android:gravity="center"
-        android:text="Example" />
+        android:text="Example"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -131,13 +134,15 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        android:text="Clear pies" />
+        android:text="Clear pies"
+        android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/btnAnimateClockPie"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        android:text="Animate pies" />
+        android:text="Animate pies"
+        android:textColor="@color/colorPrimary" />
 
 </LinearLayout>
