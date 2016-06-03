@@ -29,4 +29,14 @@ There are images included in the example. Those are made for the specific exampl
 
 ### The View
 
+Used to draw the parts of the day. Static or animated.
 
+#### ClockPie
+
+#### AnimatedClockPie
+
+# Use
+
+# License
+
+MIT. If I chose license with the correct features, you can modify and use this code however you want. If I chose wrong, you still can do it all, just let me know which license should I rather choose. Thanks :)
