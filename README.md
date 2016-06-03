@@ -1,10 +1,10 @@
 # ClockPie
 Clock divided into parts looking like pie chart. That's the reason for the name, looks like pie chart, but it's for clock.
 
-In my case i used it for visualizing the division of day into some prices for service. There are 2 classes
-- ClockPie - which is static and can draw the clock divided into parts (pies)
-- AnimatedClockPie - extension of the static class that is able to animate the division
+## Use
 
+There was a request for visualizing the division of day into few parts where there are different prices for service during the day. 
+In my case 
 ## Preview
 
 ![clear clock](https://github.com/lukash-lha/clockpie-android/blob/master/Screenshots/Screenshot_2.png)
@@ -16,10 +16,12 @@ In my case i used it for visualizing the division of day into some prices for se
 
 ## Basics
 
-There is one transparent picture on top with the clock (numbers, dial) and one one view below. It has the same size as the image and it is implemented as the ClockPie (static) or AnimatedClockPie (animated).
+There is one transparent picture on top with the clock (numbers, dial) and one one view below. It has the same size as the image and it is implemented as
+- ClockPie - which is static and can draw the clock divided into parts (pies)
+- AnimatedClockPie - extension of the static class that is able to animate the division
 
 ### The ImageView
 
 ### The View
 
-## History and use
+
