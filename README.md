@@ -4,7 +4,8 @@ Clock divided into parts looking like pie chart. That's the reason for the name,
 ## Use
 
 There was a request for visualizing the division of day into few parts where there are different prices for service during the day. 
-In my case 
+In my case I needed to use only hours -> 12 parts, but it's easy to be modified to use also minutes (60 parts) or even seconds (360 parts).
+
 ## Preview
 
 ![clear clock](https://github.com/lukash-lha/clockpie-android/blob/master/Screenshots/Screenshot_2.png)
@@ -14,7 +15,7 @@ In my case
 ![screen 2](https://github.com/lukash-lha/clockpie-android/blob/master/Screenshots/Screenshot_6.png)
 ![full clock](https://github.com/lukash-lha/clockpie-android/blob/master/Screenshots/Screenshot_7.png)
 
-## Basics
+## Implementation
 
 There is one transparent picture on top with the clock (numbers, dial) and one one view below. It has the same size as the image and it is implemented as
 - ClockPie - which is static and can draw the clock divided into parts (pies)
